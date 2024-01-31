@@ -1,0 +1,108 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Admin {
+  createdAt: DateTime
+  email: String
+  id: Int
+  name: String
+  updatedAt: DateTime
+}
+
+input AdminByTokenInput {
+  token: String!
+}
+
+type Admins {
+  admins: [Admin!]!
+  count: Int!
+}
+
+type Auth {
+  admin: Admin!
+  token: String!
+}
+
+type Client {
+  coordX: Int
+  coordY: Int
+  createdAt: DateTime
+  email: String
+  id: Int
+  name: String
+  tel: String
+  updatedAt: DateTime
+}
+
+type Clients {
+  clients: [Client!]!
+  count: Int!
+}
+
+input CreateClientInput {
+  coordX: Int
+  coordY: Int
+  email: String
+  id: Int
+  name: String
+  tel: String
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+input FindAdminInput {
+  email: String
+  id: Int
+  name: String
+}
+
+input FindAdminsPaginatedInput {
+  email: String
+  id: Int
+  name: String
+  skip: Int!
+  take: Int!
+}
+
+input FindClientInput {
+  email: String
+  id: Int
+  name: String
+  tel: String
+}
+
+input FindClientsPaginatedInput {
+  email: String
+  id: Int
+  name: String
+  skip: Int
+  take: Int
+  tel: String
+}
+
+type Mutation {
+  adminByToken(data: AdminByTokenInput!): Admin!
+  adminCreateClient(data: CreateClientInput!): Client!
+  adminEditClient(data: CreateClientInput!): Client!
+  adminRemoveClient(data: FindClientInput!): Client!
+  signInAdmin(data: SigninAdminInput!): Auth!
+}
+
+type Query {
+  calculateRoute: String!
+  findAdmin(data: FindAdminInput!): Admin!
+  findAdmins(data: FindAdminsPaginatedInput!): Admins!
+  findClient(data: FindClientInput!): Client!
+  findClients(data: FindClientsPaginatedInput!): Clients!
+  hello(name: String!): String!
+  helloWorld: String!
+}
+
+input SigninAdminInput {
+  email: String!
+  password: String!
+}

@@ -1,0 +1,721 @@
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+    background-color: #161d31;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.MuiTypography-root {
+    font-family: 'Montserrat', sans-serif !important;
+    line-height: 21px;
+    font-weight: 400;
+}
+input {
+    padding: 10px !important;
+}
+.MuiAutocomplete-inputRoot {
+    padding: 0 !important;
+}
+#__next {
+    height: 100%;
+}
+
+.grid-actions {
+    cursor: pointer;
+}
+.grid-actions:hover {
+    background: linear-gradient(90deg, #7367f0, #9e95f5);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #343d55;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #343d55;
+}
+
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+    content: '`';
+}
+
+code[class*='language-'] {
+    padding: 0;
+}
+
+.grid-logo svg {
+    max-height: 50px;
+}
+.dialog-grid-titles {
+    width: 100%;
+    display: flex;
+}
+.dialog-grid-posicao {
+    width: 5%;
+    padding: 5px;
+}
+.dialog-grid-name {
+    width: 40%;
+    padding: 5px;
+}
+.dialog-grid-coordx {
+    width: 27.5%;
+    padding: 5px;
+}
+.dialog-grid-coordy {
+    width: 27.5%;
+    padding: 5px;
+}
+tr.custom-tr {
+    background-color: #495e96;
+}
+tr.custom-tr:nth-child(even) {
+    background-color: #343d55;
+}
+.box-table {
+    background: #343d55;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 14px;
+    border-radius: 0 0 6px 6px;
+    margin-top: -6px;
+}
+
+.horizontalMenuButton {
+    min-width: fit-content !important;
+    max-height: 35px !important;
+    font-size: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #d0d2d6 !important;
+    text-transform: inherit !important;
+    padding: 6px 16px !important;
+}
+
+.grid-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 14px;
+    flex-direction: column;
+}
+.grid-2 {
+    display: flex;
+    padding: 12px 14px;
+    flex-direction: column;
+}
+.dados-bancarios-info {
+    display: flex;
+}
+.copyIcon {
+    cursor: pointer;
+}
+.copyIcon:hover {
+    color: #666cff;
+}
+
+.grid-3 {
+    display: flex;
+    padding: 12px 14px;
+    flex-direction: column;
+}
+.container-4 {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.container-4:nth-child(1) {
+    margin-right: 10px;
+}
+.container-4:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.container-4:nth-child(3) {
+    margin-left: 10px;
+}
+.font-dash-side-h1 {
+    color: #d0d2d6;
+    padding: 0;
+    margin: 0;
+}
+.font-dash-side-p {
+    color: #b4b7bd;
+}
+
+.horizontalMenuButtonActive {
+    background: linear-gradient(90deg, #7367f0, #9e95f5);
+}
+
+.MuiDataGrid-root {
+    border: none;
+    border-radius: 6px;
+}
+
+.MuiDataGrid-columnHeaders {
+    background: #343d55;
+    border-bottom: none;
+    width: 100% !important;
+}
+
+.MuiDataGrid-footerContainer {
+    display: none !important;
+}
+
+.MuiPaginationItem-root {
+    background-color: #161d31 !important;
+    color: #d0d2d6 !important;
+    border: none !important;
+}
+
+.MuiPaginationItem-root.Mui-selected {
+    background-color: #7367f0 !important;
+    color: #d0d2d6 !important;
+}
+
+.MuiPagination-ul li {
+    margin-left: 0px;
+}
+
+.MuiPaginationItem-previousNext {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.MuiPaginationItem-page {
+    border-radius: 50%;
+}
+
+.breadcumbLink {
+    color: #7367f0 !important;
+    cursor: pointer;
+}
+
+.breadcumbLink:hover {
+    color: #d0d2d6 !important;
+}
+
+.form-search-by-name {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-by-name {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 16px;
+    margin-top: -5px;
+    color: #d0d2d6;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+.default-form-input {
+    border: 1px solid #3b4253;
+    height: 35px;
+    width: 100%;
+    border-radius: 6px;
+    padding-left: 5px;
+    background-color: transparent;
+    outline: none;
+    color: #d0d2d6;
+}
+
+.default-form-input:disabled {
+    background-color: #161d31;
+}
+
+.main-hover:hover {
+    color: #7367f0;
+}
+
+select option {
+    background: #283046;
+    color: #d0d2d6;
+    border: none;
+    border-radius: 6px;
+}
+
+.actions-icon {
+    color: #7367f0;
+    cursor: pointer;
+    background: #7267f012;
+    border-radius: 50%;
+}
+
+.actions-icon:hover {
+    color: #d0d2d6;
+    background: #7267f04f;
+}
+
+.avatar-navbar {
+    color: #d0d2d6 !important;
+    background: #7367f0 !important;
+}
+.avatar-afiliado {
+    color: #d0d2d6 !important;
+    background: #7367f0 !important;
+    font-size: 60px;
+}
+.MuiDataGrid-columnSeparator {
+    color: transparent !important;
+}
+.MuiDataGrid-cell {
+    border-bottom: 1px solid rgb(224 224 224 / 16%) !important;
+    color: #b4b7bd !important;
+}
+.MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+.accordion-detalhes-accounts {
+    max-width: 300px;
+    margin-bottom: 20px !important;
+    background-color: #343d55 !important;
+    color: #d0d2d6;
+}
+.admin-notification {
+    padding: 15px;
+}
+.admin-notification-filters {
+    display: flex;
+    padding: 15px;
+    min-width: 360px;
+}
+.admin-notification-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+.time-pass {
+    font-size: 12px;
+    font-weight: 600;
+    color: #d0d2d6a3;
+    margin-left: 15px;
+}
+.admin-notification-text {
+    margin-top: 10px;
+}
+.badge-success {
+    padding: 1px 15px;
+    color: #28c76f;
+    background: #28c76f2e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.badge-purple {
+    padding: 1px 15px;
+    color: #7367f0;
+    background: #7367f02e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.badge-error {
+    padding: 1px 15px;
+    color: #ea5455;
+    background: #ea54552e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.badge-info {
+    padding: 1px 15px;
+    color: #7367f0;
+    background: #7367f02e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.badge-info-2 {
+    padding: 1px 15px;
+    color: #00cfe8;
+    background: #00cfe82e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.badge-warning {
+    padding: 1px 15px;
+    color: #ff9f43;
+    background: #ff9f432e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.badge-off {
+    padding: 1px 15px;
+    color: #a7a7a7;
+    background: #a7a7a72e;
+    border-radius: 17px;
+    max-width: fit-content;
+}
+
+.MuiModal-backdrop {
+    background: #161d3124 !important;
+}
+
+.MuiDialog-paper {
+    box-shadow: none !important;
+}
+
+.MuiBackdrop-invisible {
+    background: transparent !important;
+}
+
+.MuiPopover-paper {
+    background-color: #30334e !important;
+}
+
+.image-item-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-file-upload {
+    height: 250px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#input-file-upload {
+    display: none;
+}
+
+#label-file-upload {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666cff;
+    border: 3px #666cff dashed;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+#label-file-upload.drag-active {
+    color: #fff;
+    background-color: #666cff;
+}
+
+.upload-button {
+    cursor: pointer;
+    color: #666cff;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    border: none;
+}
+
+.upload-button.drag-active {
+    color: #fff;
+}
+
+.upload-button:hover {
+    text-decoration-line: none;
+}
+
+#drag-file-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.MuiOutlinedInput-input:-webkit-autofill {
+    box-shadow: rgb(38 103 152) 0px 0px 0px 100px inset;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    border-radius: inherit;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border: 1px solid #d0d2d6;
+}
+
+.MuiOutlinedInput-input.Mui-disabled {
+    -webkit-text-fill-color: #d0d2d6 !important;
+    background: #161d31;
+    border-radius: 6px;
+}
+.MuiDataGrid-menuIconButton {
+    color: #d0d2d6 !important;
+}
+.MuiDataGrid-sortIcon,
+.MuiDataGrid-filterIcon {
+    color: #d0d2d6 !important;
+}
+.Mui-disabled .MuiOutlinedInput-notchedOutline {
+    -webkit-text-fill-color: #7267f08c;
+    border-color: #7267f08c !important;
+}
+.inputheight40px input {
+    height: 40px;
+    padding: 0 8px;
+}
+.autocomplete40px .MuiInputBase-root {
+    height: 40px;
+    padding: 0;
+}
+.MuiInputBase-root fieldset {
+    border-color: #d0d2d6;
+}
+.MUI-focused .MuiInputBase-root fieldset {
+    border-color: #7367f0;
+}
+
+.MUI-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #7367f0;
+}
+.horizontal-menu {
+    max-height: 60px;
+    background: #283046;
+    margin: 16px 0;
+    border-radius: 6px;
+    padding: 12px 14px;
+    gap: 16px;
+    display: flex;
+}
+.horizontal-menu-mobile {
+    display: none;
+}
+.show-on-768px {
+    display: none;
+}
+.menu-mobile .MuiDrawer-paper {
+    margin-top: 64px !important;
+    height: -webkit-fill-available;
+}
+.menuMobileActive {
+    background: linear-gradient(90deg, #7367f0, #9e95f5);
+}
+.search-bar {
+    width: 100%;
+    height: 50px;
+    margin: 16px 0;
+    padding: 12px 14px;
+    background: #283046;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: block;
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.paper-dash {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, #7367f0, #9e95f5);
+    margin: 0;
+    display: flex;
+}
+.grid-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-avatar {
+    background: #30334e;
+    color: #d0d2d6;
+}
+.grid-text-paper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-paper {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.span-paper {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+.chart-custom {
+    background-color: #283046;
+    border-radius: 8px;
+}
+.text-paper strong {
+    font-weight: 900;
+    font-size: 18px;
+}
+.breadcumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.directSellStatus .MuiAccordionSummary-content {
+    margin: 0 !important;
+}
+.dc-col1 {
+    background: #343d55;
+    padding: 12px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column !important;
+    gap: 12px;
+    overflow: hidden;
+}
+.dc-col2 {
+    background: #343d55;
+    padding: 12px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column !important;
+    gap: 12px;
+    overflow: hidden;
+}
+.dc-registro-atividades {
+    background: #343d55;
+    padding: 12px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column !important;
+    gap: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.cs-accordion-4-1,
+.cs-accordion-4-2 {
+    max-width: 500px;
+    margin-bottom: 20px;
+    background: #343d55 !important;
+    color: #d0d2d6;
+}
+.dc-seller-buyer {
+    padding-left: 12px;
+}
+
+/* MEDIA SCREEN */
+@media screen and (max-width: 1100px) {
+    .horizontal-menu {
+        gap: 5px;
+        padding: 12px 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .accordion-detalhes-accounts {
+        max-width: 500px;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+    }
+    .cs-item4,
+    .cs-item8 {
+        flex: 100%;
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+    .dc-seller-buyer {
+        padding-left: 0;
+    }
+    .cs-item4 {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .dc-col1 {
+        margin-left: 0;
+    }
+    .dc-registro-atividades {
+        margin-left: 0;
+    }
+    .cs-accordion-4-1,
+    .cs-accordion-4-2 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .horizontal-menu {
+        display: none;
+    }
+    .horizontal-menu-mobile {
+        display: flex;
+    }
+    .container-6 {
+        flex: 100%;
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+    .container-6 .MuiBox-root {
+        padding: 0 10rem;
+        max-width: -webkit-fill-available;
+    }
+    .breadcumb {
+        margin-top: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hide-on-768px {
+        display: none;
+    }
+    .show-on-768px {
+        display: flex;
+    }
+    .container-6 .MuiBox-root {
+        padding: 0 7rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-6 .MuiBox-root {
+        padding: 0;
+    }
+    .search-by-name {
+        font-size: 12px;
+    }
+    .dc-seller-buyer {
+        flex-direction: column !important;
+    }
+    .dc-col1,
+    .dc-col2 {
+        flex: 100%;
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+}
