@@ -7,16 +7,25 @@ Frontend -> NextJS, MUI, ApolloClient, JWT Signin
 
 
 //Passo a Passo para utilização do backend:
+
 cd sgc-back
+
 npm install
+
 npx prisma migrate deploy
+
 npx prisma db seed
+
 npx prisma generate
+
 npm run dev
 
 //Passo a Passo para utilização do frontend:
+
 cd sgc-front
+
 npm install
+
 npm run dev
 
 //login e senha
