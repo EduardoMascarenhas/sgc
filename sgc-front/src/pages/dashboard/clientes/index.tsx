@@ -583,7 +583,7 @@ const Clientes = () => {
                             <tbody>
                                 {bestRoute.map((r, i) => {
                                     return (
-                                        <tr className="custom-tr">
+                                        <tr key={i} className="custom-tr">
                                             <td scope="row">
                                                 <p key={`posicao-${i}`}>{i}</p>
                                             </td>
