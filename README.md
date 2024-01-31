@@ -29,7 +29,9 @@ npm install
 npm run dev
 
 //login e senha
+
 Login: master@master.com.br
+
 Senha: senhamaster
 
 Para manipular as querys e mutations criadas para esse projeto recomendo a utilização do seguinte link: https://studio.apollographql.com/sandbox/explorer
